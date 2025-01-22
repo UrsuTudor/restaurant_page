@@ -27,7 +27,7 @@ function menuLoad() {
 
   menuItems.forEach(item => {
     const pizzaHTML = `
-    <div class="menu-item">
+    <div class="menu_item">
       <h2>${item.name}</h2>
       <p><strong>Weight:</strong> ${item.weight}</p>
       <p><strong>Toppings:</strong> ${item.toppings}</p>

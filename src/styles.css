@@ -1,15 +1,31 @@
+body {
+  background-color: #242526;
+  color: #e4e6eb;
+}
+
 nav {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
+a {
+  color: #e4e6eb;
+  display: inline;
+}
+
 #content {
+  padding: 0px 300px 0px 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 img {
-  width: 800px
+  width: 800px;
+  border-radius: 30px;
+}
+
+.menu_item {
+  align-self:flex-start;
 }
